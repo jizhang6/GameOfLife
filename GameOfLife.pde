@@ -39,7 +39,7 @@ public void draw () {
       } else {
         buffer[r][c] = false;
       }
-      square(width, height, 20);
+      rect(width, height, 20, 20);
     }
   }
   copyFromBufferToButtons();
